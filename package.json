@@ -1,0 +1,49 @@
+{
+  "name": "rhino",
+  "version": "0.1.0",
+  "description": "Minimal WordPress theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavinrajsi/learn-wordpress.git"
+  },
+  "keywords": [
+    "WordPress",
+    "Theme",
+    "CustomTheme"
+  ],
+  "author": "kavinrajsi",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kavinrajsi/learn-wordpress/issues"
+  },
+  "homepage": "https://github.com/kavinrajsi/learn-wordpress#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "dir-archiver": "^1.1.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csscomb": "^3.1.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1",
+    "rtlcss": "^2.6.0"
+  },
+  "rtlcssConfig": {
+    "options": {
+      "autoRename": false,
+      "autoRenameStrict": false,
+      "blacklist": {},
+      "clean": true,
+      "greedy": false,
+      "processUrls": false,
+      "stringMap": []
+    },
+    "plugins": [],
+    "map": false
+  },
+  "dependencies": {}
+}

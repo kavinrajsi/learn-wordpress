@@ -1,0 +1,53 @@
+/*!
+Theme Name: One Horned Rhino
+Theme URI: https://sikavinaj.me
+Author: Kavinraj S.I
+Author URI: https: //sikavinraj.me/work/one-horned-rhino
+Description: Minimal WordPress theme.
+Version: 0.1.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tag: two-columns, left-sidebar, featured-images, post-formats, sticky-post, custom-logo, custom-menu, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Reset CSS styles have been helped along thanks to the fine work of Eric A. Meyer
+http: //meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic
+	- Reset
+	- Box sizing
+# Base
+	- Typography
+	- Elements
+	- Links
+	- Forms
+## Layouts
+# Components
+	- Navigation
+	- Posts and pages
+	- Comments
+	- Widgets
+	- Media
+	- Captions
+	- Galleries
+# Utilities
+	- Accessibility
+	- Alignments
+
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/* Reset
+--------------------------------------------- */
+@import "reset";
